@@ -40,7 +40,7 @@ sphinx = ">=5.3.0"
 black = "*"
 
 [tool.poetry.scripts]
-planparser = 'planparser.cli:main'
+planparser = 'planparser.cli:cli'
 
 [tool.poetry.group.dev.dependencies]
 pyyaml = "^6.0"
