@@ -26,6 +26,7 @@ packages = [
 [tool.poetry.dependencies]
 python = ">=3.7,<4"
 click = "*"
+pytesseract = "^0.3.10"
 
 [tool.poetry.dev-dependencies]
 bumpversion = "*"
@@ -40,6 +41,9 @@ black = "*"
 
 [tool.poetry.scripts]
 planparser = 'planparser.cli:main'
+
+[tool.poetry.group.dev.dependencies]
+pyyaml = "^6.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
